@@ -66,21 +66,47 @@ function showContent(option) {
             content.innerHTML = "<h3>Contacto</h3><p>Contacto: vin.promocion@toluca.tecnm.mx</p><p>Teléfono: 722 208 72 40 o 722 208 72 00 ext. 2221 </p><p>Ubicación: Edificio K, cubículos 9 y 10.</p>";
             break;
         case 'opcion2':
-            content.innerHTML = "<h3>Preguntas Frecuentes</h3><p>Vuelva a leer los pasos 1, 2, 3, 4, 5, 6 y 7.</p><p>Si aún queda duda, volver a leerlos!!!!</p>";
+            content.innerHTML = `
+                    <h3 style="text-align: center;">¿Puedo hacer mi residencia profesional si estoy en 9º semestre?</h3>
+                    <p style="text-align: justify;">No importa el semestre en el que te encuentres, lo importante es que cumplas con los requisitos establecidos, como haber aprobado un determinado número de créditos o materias previas.</p>
+
+                    <h3 style="text-align: center;">¿Es obligatorio encontrar mi propia empresa para la residencia?</h3>
+                    <p style="text-align: justify;">En algunos casos sí, pero también existen convenios entre la institución educativa y empresas que facilitan este proceso. Consulta con tu coordinador de residencia para conocer las opciones disponibles.</p>
+
+                    <h3 style="text-align: center;">¿Puedo realizar mi residencia en el extranjero?</h3>
+                    <p style="text-align: justify;">Sí, en algunos casos es posible. Para ello, debes consultar los acuerdos de la institución con empresas o instituciones internacionales y cumplir con los requisitos adicionales establecidos.</p>
+
+                    <h3 style="text-align: center;">¿Qué pasa si no cumplo con los plazos de entrega de los informes de residencia?</h3>
+                    <p style="text-align: justify;">El incumplimiento de los plazos puede afectar la calificación final de la residencia profesional. Es importante entregar los informes dentro de los plazos establecidos y, si hay algún retraso, comunicarlo con anticipación a tu asesor.</p>
+
+                    <h3 style="text-align: center;">¿Es necesario tener un asesor interno durante la residencia?</h3>
+                    <p style="text-align: justify;">Sí, es indispensable contar con un asesor interno de la institución que supervise y evalúe tu progreso durante el proceso de residencia.</p>
+
+                    <h3 style="text-align: center;">¿Puedo hacer la residencia profesional en una empresa donde ya trabajo?</h3>
+                    <p style="text-align: justify;">Sí, siempre que la empresa esté relacionada con el área de estudio de tu carrera y que puedas cumplir con los objetivos y actividades que requiere la residencia profesional. Consulta para saber si es posible y los trámites necesarios.</p>
+
+                    <h3 style="text-align: center;">¿Cómo se realiza la evaluación de mi residencia profesional?</h3>
+                    <p style="text-align: justify;">La evaluación se realiza a través de informes periódicos, retroalimentación de tu asesor interno, y una evaluación final de tus logros y el cumplimiento de los objetivos establecidos al inicio de la residencia.</p>
+
+                    <h3 style="text-align: center;">¿Puedo obtener una beca o apoyo económico para realizar mi residencia?</h3>
+                    <p style="text-align: justify;">Depende de las instituciones y empresas, pueden ofrecer becas o apoyos económicos para estudiantes en residencia profesional. Infórmate sobre las opciones disponibles a través de tu coordinador y las empresas con las que tengas contacto.</p>
+                `;
             break;
         case 'opcion3':
             // Aquí agregamos el contenido con el ícono del video que redirige al video
             content.innerHTML = `
-                <h3>Video 1:</h3>
-                <p>Inicio del PR </p>  
+                <h3 style="text-align: center;">Video 1:</h3>
+                <p>Convocatoria</p>  
                 
                 <div class='video-icon-container'>              
                 <a href="https://www..com/video" target="_blank">
                     <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
                 </a>
                 </div>
-                <h3>Video 2:</h3>
-                <p>Solicitud, Documentos y Procesos </p> 
+
+                <h3 style="text-align: center;">Video 2:</h3>
+
+                <p>Registro</p> 
 
                 <div class='video-icon-container'>       
                
@@ -88,6 +114,48 @@ function showContent(option) {
                     <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
                 </a>
                 </div>
+
+                <h3 style="text-align: center;">Video 3:</h3>
+
+                <p>1ra Asesoría</p> 
+
+                <div class='video-icon-container'>       
+               
+                <a href="https://www..com/video" target="_blank">
+                    <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
+                </a>
+                </div>
+
+                <h3 style="text-align: center;">Video 4:</h3>
+                <p>2da. Asesoría</p> 
+
+                <div class='video-icon-container'>       
+               
+                <a href="https://www..com/video" target="_blank">
+                    <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
+                </a>
+                </div>
+
+                <h3 style="text-align: center;">Video 5:</h3>
+                <p>Reporte Técnico</p> 
+
+                <div class='video-icon-container'>       
+               
+                <a href="https://www..com/video" target="_blank">
+                    <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
+                </a>
+                </div>
+
+                <h3 style="text-align: center;">Video 6:</h3>
+                <p>Culminación</p> 
+
+                <div class='video-icon-container'>       
+               
+                <a href="https://www..com/video" target="_blank">
+                    <img src="imagenes/VIDEO.png"  style="width: 40px; height: 40px; cursor: pointer;">
+                </a>
+                </div>
+                
 
             `;
             break;
@@ -105,7 +173,7 @@ function showContent(option) {
             <a href="https://www.canva.com/design/DAGTIokftmQ/EC6sLAhTCuCBj_Yl9462bw/edit" target="_blank">
                 <img src="imagenes/presentacion.png"  style="width: 40px; height: 40px; cursor: pointer;">
             </a>
-           </div>1
+           </div>
             
             
         
