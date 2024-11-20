@@ -90,10 +90,31 @@ body {
     cursor: pointer; /* Cambia el cursor a pointer al pasar sobre la pestaña */
 }
 
-.tab.active {
-    background-color: #003366; /* Color de fondo para la pestaña activa */
-    color: white; /* Color de texto para la pestaña activa */
+.tab[data-tab="step1"].active {
+    background-color: #591233; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
 }
+.tab[data-tab="step2"].active {
+    background-color: #591233; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
+}
+.tab[data-tab="step3"].active {
+    background-color: #A67C58; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
+}
+.tab[data-tab="step4"].active {
+    background-color: #A67C58; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
+}
+.tab[data-tab="step5"].active {
+    background-color: #A62655; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
+}
+.tab[data-tab="step6"].active {
+    background-color: #A62655; /* Fondo de la pestaña activa */
+    color: white; /* Color del texto */
+}
+
 
 .tab-content {
     border: 1px solid #ccc; /* Borde alrededor del contenido */

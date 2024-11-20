@@ -105,7 +105,7 @@ function showContent(option) {
             <a href="https://www.canva.com/design/DAGTIokftmQ/EC6sLAhTCuCBj_Yl9462bw/edit" target="_blank">
                 <img src="imagenes/presentacion.png"  style="width: 40px; height: 40px; cursor: pointer;">
             </a>
-           </div>
+           </div>1
             
             
         
