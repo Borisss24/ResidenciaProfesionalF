@@ -170,7 +170,7 @@ function showContent(option) {
            </div>
             <h3>Pasos</h3>
             <div class='video-icon-container'>
-            <a href="https://www.canva.com/design/DAGTIokftmQ/EC6sLAhTCuCBj_Yl9462bw/edit" target="_blank">
+            <a href="https://www.canva.com/design/DAGTIokftmQ/EC6sLAhTCuCBj_Yl9462bw/edit?utm_content=DAGTIokftmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                 <img src="imagenes/presentacion.png"  style="width: 40px; height: 40px; cursor: pointer;">
             </a>
            </div>
